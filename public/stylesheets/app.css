@@ -1,0 +1,55 @@
+header {
+    background-color: #244751;
+    color: #e8fdff;
+}
+
+article:nth-child(3) {
+    background-color: pink;
+    
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+
+.post .user-info img {
+    border-radius: 50%;
+    z-index: 1;
+    
+
+}
+
+.red-bg {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%; 
+}
+
+
+.post .user-info img:hover {
+    opacity: 0;
+}
+
+a {
+    transition: ease-in-out 0.5s;
+}
+
+a:hover {
+   transform: rotate(36deg);
+}
+
+body, input {
+  font-family: 'Oxygen', sans-serif;
+}
